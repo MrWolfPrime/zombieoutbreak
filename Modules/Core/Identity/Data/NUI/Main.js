@@ -119,6 +119,17 @@ Identity.Translate = function(Lang) {
 		document.getElementById("Occupation").innerHTML = "Ocupación";
 		document.getElementById("Skills").innerHTML = "Descripción";
 		document.getElementById("Submit").innerHTML = "Crear Identidad";
+	} else if (Lang == "IT") {
+			document.getElementById("Title").innerHTML = "Registrazione Identità";
+			document.getElementById("FirstName").innerHTML = "Nome";
+			document.getElementById("LastName").innerHTML = "Cognome";
+			document.getElementById("DateOfBirth").innerHTML = "Data di nascita";
+			document.getElementById("Sex").innerHTML = "Sesso";
+			document.getElementById("Male").innerHTML = "Uomo";
+			document.getElementById("Female").innerHTML = "Donna";
+			document.getElementById("Occupation").innerHTML = "Ruolo";
+			document.getElementById("Skills").innerHTML = "Descrizione";
+			document.getElementById("Submit").innerHTML = "Crea identità";
 	};
 }
 
